@@ -62,7 +62,7 @@ This project provides a complete solution for monitoring indoor air quality by:
 
 5. **Run the data ingestion pipeline**
    ```bash
-   python final.py
+   uv run final.py
    ```
 
 ## Architecture
