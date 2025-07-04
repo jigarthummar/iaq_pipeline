@@ -121,7 +121,7 @@ The `iaq_measurements` table stores:
 
 ## Grafana Setup
 
-1. Access Grafana at http://localhost:3001
+1. Access Grafana at http://localhost:3000
 2. Login with admin/admin (change password on first login)
 3. Add TimescaleDB as a data source:
    - Host: `timescaledb:5432`
