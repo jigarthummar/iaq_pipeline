@@ -34,7 +34,7 @@ This project provides a complete solution for monitoring indoor air quality by:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/jigarthummar/iaq_pipeline.git
    cd iaq_pipeline
    ```
 
