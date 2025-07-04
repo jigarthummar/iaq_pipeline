@@ -68,16 +68,7 @@ This project provides a complete solution for monitoring indoor air quality by:
 
 ## Architecture
 
-```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐     ┌─────────┐
-│ Sensor API  │────▶│ Python Script│────▶│ TimescaleDB │────▶│ Grafana │
-└─────────────┘     └──────────────┘     └─────────────┘     └─────────┘
-                           │
-                           ▼
-                    ┌──────────────┐
-                    │ IAQ Formula  │
-                    └──────────────┘
-```
+![Architecture](assets/Arch.png)
 
 ## Configuration
 
