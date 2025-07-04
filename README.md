@@ -135,4 +135,4 @@ The `iaq_measurements` table stores:
 
 ![Dashboard Screenshots](assets/DB.png)
 ![Dashboard Screenshots 1](assets/DB1.png)
-![Dashboard Screenshots Phone] (assets/DB_phone.png)
+![Dashboard Screenshots Phone](assets/DB_phone.png)
