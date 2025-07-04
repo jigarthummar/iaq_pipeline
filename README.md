@@ -118,31 +118,6 @@ The `iaq_measurements` table stores:
 
 
 
-## Usage
-
-### Connect to the database
-```bash
-docker exec -it timescaledb-iaq psql -U postgres -d iaq
-```
-
-### Query recent measurements
-```sql
-SELECT time, device_id, iaq_score, co2_ppm, temp_c, rh_pct, tvoc_ppb 
-FROM iaq_measurements 
-ORDER BY time DESC 
-LIMIT 10;
-```
-
-### Calculate hourly averages
-```sql
-SELECT time_bucket('1 hour', time) AS hour,
-       AVG(iaq_score) AS avg_iaq,
-       AVG(co2_ppm) AS avg_co2,
-       AVG(temp_c) AS avg_temp
-FROM iaq_measurements
-GROUP BY hour
-ORDER BY hour DESC;
-```
 
 ## Grafana Setup
 
