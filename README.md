@@ -58,7 +58,6 @@ This project provides a complete solution for monitoring indoor air quality by:
 4. **Install Python dependencies**
    ```bash
    pip install uv
-   uv pip install requests python-dotenv psycopg2-binary numpy
    ```
 
 5. **Run the data ingestion pipeline**
