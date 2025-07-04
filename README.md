@@ -9,6 +9,7 @@ This project provides a complete solution for monitoring indoor air quality by:
 - Calculating comprehensive IAQ scores based on multiple environmental factors
 - Storing time-series data in TimescaleDB (PostgreSQL extension)
 - Visualizing data through Grafana dashboards
+- Getting Email Alerts (SMTP)
 
 ## Features
 
