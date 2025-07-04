@@ -133,4 +133,6 @@ The `iaq_measurements` table stores:
 
 ## Application Screenshot
 
-![Dashboard Screenshots](assets/DB.png)(assets/DB1.png)(assets/DB.png)
+![Dashboard Screenshots](assets/DB.png)
+![Dashboard Screenshots 1](assets/DB1.png)
+![Dashboard Screenshots Phone] (assets/DB.png)
